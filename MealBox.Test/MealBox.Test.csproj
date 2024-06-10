@@ -31,7 +31,4 @@
     <Folder Include="ServicesTest\" />
     <Folder Include="RepositoryTest\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MealBox.Core\MealBox.Core.csproj" />
-  </ItemGroup>
 </Project>
