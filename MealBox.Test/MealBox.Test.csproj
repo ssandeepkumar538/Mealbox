@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ViewModelTest\" />
+    <None Remove="ServicesTest\" />
+    <None Remove="RepositoryTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModelTest\" />
+    <Folder Include="ServicesTest\" />
+    <Folder Include="RepositoryTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MealBox.Core\MealBox.Core.csproj" />
+  </ItemGroup>
+</Project>
