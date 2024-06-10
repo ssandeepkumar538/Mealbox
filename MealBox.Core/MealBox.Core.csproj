@@ -38,8 +38,8 @@
 	  <None Remove="Repositories\IRepo\" />
 	  <None Remove="Repositories\Base\" />
 	  <None Remove="Models\" />
-	  <None Remove="Models\RequestModel\" />
 	  <None Remove="Models\ResponseModel\" />
+	  <None Remove="Models\RequestModels\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Services\" />
@@ -50,7 +50,7 @@
 	  <Folder Include="Repositories\IRepo\" />
 	  <Folder Include="Repositories\Base\" />
 	  <Folder Include="Models\" />
-	  <Folder Include="Models\RequestModel\" />
 	  <Folder Include="Models\ResponseModel\" />
+	  <Folder Include="Models\RequestModels\" />
 	</ItemGroup>
 </Project>
