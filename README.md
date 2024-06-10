@@ -12,7 +12,7 @@ MVVM
 MealBox API
 
 
-**App Screensot Preview**
+**App Screenshot Preview**
 
 ![CategoryList](https://github.com/ssandeepkumar538/Mealbox/assets/15775536/5cd177aa-58ca-4b4d-ae24-4e8b70c335a5)
 
